@@ -1,0 +1,355 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Josefin Sans',sans serif;
+    box-sizing: border-box;
+}
+.hero{
+    height:100vh;
+    width:100%;
+    background-image: url(images/bgimg6.webp);
+    background-size: cover;
+    background-position:center;
+    
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-top:45px;
+    padding-left:8%;
+    padding-right:8%;
+}
+.logo{
+    color:white;
+    font-size:35px;
+    letter-spacing: 1px;
+    cursor:pointer;
+}
+span{
+    color:red;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    border:2px solid transparent;
+    font-weight:bold;
+    text-transform: capitalize;
+    transition:0.4s;
+}
+nav ul li a:hover{
+    transition:0.4s;
+    color:red;
+}
+.btn{
+    background-color:black;
+    color:white;
+    border:3px solid white;
+    text-decoration: none;
+    padding:10px 25px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: transform 0.4s;
+}
+.btn:hover{
+    transform:scale(1.2);
+    background-color: white;
+    color:black;
+    border:3px solid white;
+}
+.content{
+    position:absolute;
+    top:50%;
+    left:8%;
+    transform:translateY(-50%);
+}
+h1{
+    color:white;
+    margin:20px 0px 20px;
+    font: size 45px;
+}
+h3{
+    color:white;
+    font: size 25px;
+    margin-bottom:50px;
+}
+h4{
+    color:white;
+    letter-spacing: 2px;
+    font-size:20px;
+}
+.about{
+    width:100%;
+    padding:100px 0px;
+    background-color:#191919;
+}
+.about img{
+    height:auto;
+    width:430px;
+}
+.about-text{
+    width:550px;
+}
+.main{
+    width:1130px;
+    max-width: 95%;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color:white;
+    font-size:45px;
+    text-transform:capitalize;
+    margin-bottom:20px;
+}
+.about-text h5{
+    color:white;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    font-size:22px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color:#fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size:18px;
+    margin-bottom:45px;
+}
+button{
+    background-color:black;
+    color:white;
+    text-decoration: none;
+    border: 2px solid white;
+    font-weight:bold;
+    padding:13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: white;
+    border: 2px solid white;
+    color:black;
+    cursor:pointer;
+}
+.brands{
+    background:#101010;
+    width:100%;
+    padding:100px 0px;
+}
+.title h2{
+    color:white;
+    font-size:75px;
+    width:1130px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;   
+}
+.card{
+    height:365px;
+    width:335px;
+    padding:20px 35px;
+    background:#191919;
+    border-radius:20px;
+    margin:15px;
+    position:relative;
+    overflow: hidden;
+    text-align: center;
+}
+h5{
+    color:white;
+    font-size:23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color:#fcfc;
+    font-size:16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color:black;
+    color:white;
+    text-decoration: none;
+    border: 2px solid white;
+    font-weight:bold;
+    padding:9px 22px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.card .button:hover{
+    background-color: white;
+    border: 2px solid white;
+    color:black;
+    cursor:pointer;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color:white;
+    margin-bottom: 20px;
+    font-weight:bold;
+}
+footer p:nth-child(2){
+    color:white;
+    width:500px;
+    text-align:center;
+    line-height: 26px;   
+}
+footer .button{
+    background-color:black;
+    color:white;
+    text-decoration: none;
+    border: 2px solid white;
+    font-weight:bold;
+    padding:9px 22px;
+    border-radius: 30px;
+    transition: 0.4s;   
+}
+footer .button:hover{
+    background-color: white;
+    border: 2px solid white;
+    color:black;
+    cursor:pointer;
+}
+.end{
+    position:absolute;
+    color:red;
+    bottom:35px;
+    font-size:14px;
+}
+.login{
+    height:100vh;
+    width:100%;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/loginbentley.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.loginbox{
+    position:absolute;
+    background:#fff;
+    color:#000;
+    top:50%;
+    left:50%;
+    width:340px;
+    height:490px;
+    transform:translate(-50%,-50%);
+    padding:60px 40px;
+    border-radius:30px;
+}
+.main-img{
+    position:relative;
+    width:80px;
+    height:80px;
+    top:-50px;
+    left:calc(50% - 50px);
+    border-radius:12px;
+}
+.loginbox h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 0 0 30 px;
+    font-weight:800px;
+    color:#000;
+    margin-top:25px;
+}
+.loginbox{
+    color:#000;
+    font-weight: bold;
+}
+.loginbox input{
+    margin-top:15px;
+    margin-bottom: 15px;
+    width:100%;
+}
+.loginbox input[type="text"],input[type="Password"]{
+    border:none;
+    border-bottom:1px solid #000;
+    outline:none;
+    height:30px;
+    font-size:15px;
+}
+.loginbox .button{
+    background-color:black;
+    color:white;
+    text-decoration: none;
+    border: 2px solid white;
+    font-weight:bold;
+    padding:9px 50px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.loginbox .button:hover{
+    background-color: white;
+    border: 2px solid black;
+    color:black;
+    cursor:pointer;
+}
+.form{
+    height:130vh;
+    width:100%;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/loginbentley.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.formbox{
+    position:absolute;
+    background:#fff;
+    color:#000;
+    top:50%;
+    left:50%;
+    width:700px;
+    height:770px;
+    transform:translate(-50%,-50%);
+    padding:60px 40px;
+    border-radius:30px;
+    margin-top:100px;
+}
+.formbox input{
+    margin-top:15px;
+    margin-bottom: 15px;
+    width:100%;
+}
+.formbox input[type="First Name"],input[type="Last Name"],input[type="date"],
+input[type="email"],input[type="number"],input[type="address"],input[type="license number"]{
+    border:none;
+    border-bottom:1px solid #000;
+    outline:none;
+    height:30px;
+    font-size:15px;
+}
+.mod1{
+    display:flex;
+    align-items:center;
+    text-align:center;
+    padding-left:200px;
+    padding-top:35px;
+    padding-right:200px;
+}
+.mod1 img{
+    width:250px;
+    height:250px;
+    margin-right:50px;
+}
